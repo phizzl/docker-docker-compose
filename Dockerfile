@@ -1,4 +1,4 @@
-FROM docker:19.03.12
+FROM docker:latest
 MAINTAINER Phillip Schleicher <the@phizzl.it>
 
 RUN apk add -q py-pip python3-dev libffi-dev openssl-dev gcc libc-dev make && \
